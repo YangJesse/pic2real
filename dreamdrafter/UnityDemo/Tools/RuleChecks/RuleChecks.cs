@@ -1,0 +1,81 @@
+using System;
+using Dashed;
+class RuleChecks
+{
+    static int checks;
+    static void Assert(bool ok,string name) { checks++; if(!ok) throw new Exception(name); }
+    static void Main()
+    {
+        Assert(Rules.CheckPisa(5,1.4f,true).success,"Pisa corrected four levels");
+        Assert(!Rules.CheckPisa(5,0f,true).success,"Pisa wrong direction");
+        Assert(!Rules.CheckPisa(5,.7f,true).success,"Pisa belfry cannot remain 2.7deg");
+        Assert(!Rules.CheckPisa(8,3.5f,true).success,"Pisa late correction breaks bearing");
+        Assert(Rules.CheckPisa(7,1.75f,true).success,"Pisa latest two-layer inclusive belfry tilt");
+        Assert(Rules.CheckPisa(4,.1f,false).success,"Pisa seventh-floor stopping branch");
+        Assert(!Rules.CheckPisa(5,float.NaN,true).success,"Pisa NaN rejected");
+        Assert(Rules.CheckColumn(.9f,3f).success,"Column inclusive bounds");
+        Assert(!Rules.CheckColumn(.9001f,0).success,"Column rhythm beyond bound");
+        Assert(Rules.CheckColumn(0,3.001f).kind==FailureKind.Parse,"Slant becomes draft");
+        Assert(Rules.CheckPantheon(6,1.5f,-20).success,"Pantheon all lower inclusive bounds");
+        Assert(Rules.CheckPantheon(9,0,20).success,"Pantheon upper inclusive bounds");
+        Assert(!Rules.CheckPantheon(8.2f,1.501f,0).success,"Pantheon eccentric crack");
+        Assert(!Rules.CheckPantheon(8.2f,0,21).success,"Pantheon solar failure");
+        Assert(Rules.CheckCologne(new float[]{2,2,2},.45f,false).success,"Cologne lower boundary");
+        Assert(Rules.CheckCologne(new float[]{2,2,2},.85f,false).success,"Cologne upper boundary");
+        Assert(!Rules.CheckCologne(new float[]{2,2,2},.44f,false).success,"Cologne too heavy");
+        Assert(!Rules.CheckCologne(new float[]{2,2,2},.86f,false).success,"Cologne missing ribs");
+        Assert(Rules.CheckCologne(new float[]{4,4,4},0,true).success,"Hoist bypasses openness and doubles tolerance");
+        Assert(!Rules.CheckCologne(new float[]{4.01f,0,0},0,true).success,"Hoist still requires symmetry");
+        Assert(Rules.CheckSagrada(new float[]{44,45.5f,44.5f},new int[]{2,2,1},true).success,"Sagrada inclusive join");
+        Assert(!Rules.CheckSagrada(new float[]{44,45.51f,44.5f},new int[]{2,2,1},true).success,"Sagrada failing join");
+        Assert(!Rules.CheckSagrada(new float[]{44,44,44},new int[]{2,0,1},true).success,"Sagrada each span must use original");
+        Assert(!Rules.CheckSagrada(new float[]{44,44,44},new int[]{2,2,1},false).success,"Sagrada central mirror must clear");
+        Assert(Rules.CheckAlignment(2.999f).success && !Rules.CheckAlignment(3f).success,"Exclusive framing threshold");
+        Assert(Rules.NewStoneTone(.999f)==1 && Rules.NewStoneTone(1f)==2 && Rules.NewStoneTone(3f)==0,"Tone threshold differs from framing");
+        DemoProgress p=new DemoProgress();
+        Assert(p.PlacePisa(DemoCandidates.Pisa[1],.5f).success,"Progress Pisa placement");
+        Assert(p.AdvanceScene().success && p.currentScene==1,"Progress next scene");
+        Assert(!p.PlaceColumns(new int[]{0,1,2,3,4,5},new float[6],new float[6],0).success && p.ColumnCount==0,"Batch cannot exceed five");
+        Assert(p.PlaceColumns(new int[]{0,1,2,3,4},new float[5],new float[5],0).success,"First column round");
+        Assert(p.ColumnCount==5 && p.route_open && !p.page_closed,"Five-column route is distinct from all-used page");
+        Assert(!p.PlaceColumns(new int[]{5,6},new float[]{0,2},new float[2],0).success && p.ColumnCount==5,"Failed batch retains prior geometry");
+        Assert(p.PlaceColumns(new int[]{5,6,7},new float[3],new float[3],0).success,"Second column round");
+        Assert(p.parthenonRounds==2 && p.ColumnCount==8,"Eight columns require two rounds");
+        Assert(!p.CaptureDrum(0,0,.501f).success,"Drum physical capture radius");
+        for(int i=0;i<16;i++) Assert(p.CaptureDrum(i,i/2,.3f).success,"Drum ID "+i);
+        Assert(!p.CaptureDrum(0,1,0).success,"Old stone cannot duplicate");
+        Assert(p.page_closed && p.restoration_complete && p.completed[1],"Every original used closes Parthenon");
+        foreach(bool beam in p.architraves) Assert(beam,"Nine original beams installed");
+        Assert(!p.AddDrain().success,"Aperture first, rain before drainage");
+        Assert(p.PlacePantheon(DemoCandidates.Pantheon[1],0).success && p.raining && !p.completed[2],"Pantheon first placement rain only");
+        Assert(!p.TryClosePantheon().success,"Water must drain");
+        Assert(p.AddDrain().success,"First drain");
+        p.TickPantheon(10); Assert(p.waterHeight>.06f && p.raining,"One drain cannot overcome rain");
+        p.AddDrain();p.AddDrain();p.AddDrain();
+        p.TickPantheon(100); Assert(p.waterHeight==0 && !p.raining,"Water balance actually dries four drains");
+        p.sunMinutes=21;Assert(!p.TryClosePantheon().success,"Dry floor still needs correct sunlight");
+        p.sunMinutes=0;Assert(p.TryClosePantheon().success && p.completed[2],"Dry solar closure");
+        Assert(!p.PlaceCologne(0).success,"Cologne must join half-page");
+        p.colognePageJoined=true;p.cologneErased=true;
+        Assert(p.PlaceCologne(0).success,"Cologne erasure branch");
+        Assert(p.ClearMirror(.98f).success && p.MirrorClear,"98 percent central erasure");
+        Assert(!p.HangChain(0,1.4f,44,new int[]{0}).success,"Too short chain cannot hang");
+        Assert(p.HangChain(0,9.0f,44,new int[]{0,3}).success,"First span claims F4");
+        Assert(!p.HangChain(1,9.0f,44,new int[]{1,3}).success,"F4 cannot be shared or duplicated");
+        Assert(p.HangChain(1,9.0f,45.6f,new int[]{1,4}).success,"Second span immediately appears");
+        Assert(p.HangChain(2,9.0f,44.2f,new int[]{2}).success,"Third span hangs F3");
+        Assert(!p.PlaceSagrada(0).success,"Mismatched heights leave joint gap");
+        Assert(p.HangChain(1,9.0f,44.5f,new int[]{1,4}).success && p.sagradaHeights[0]==44 && p.fragmentOwners[3]==0,"Local redraw preserves first span");
+        Assert(p.PlaceSagrada(0).success && p.completed[4],"Sagrada corrected heights");
+        Assert(!p.PlaceFinalPage(0).success,"Final page first needs drawing");
+        p.finalPageDrawn=true;Assert(p.PlaceFinalPage(0).success && p.finalPagePlaced,"Final facade has no structural test");
+        p.currentScene=4;p.returnedToWorkshop=true;
+        DemoProgress restored;
+        string saved=p.ToSaveString();
+        Assert(DemoProgress.TryFromSaveString(saved,out restored),"Save parses");
+        Assert(restored.ToSaveString()==saved,"All persistent state round-trips exactly");
+        Assert(restored.ColumnCount==8 && restored.UsedDrumCount==16 && restored.FragmentCounts()[0]==2 && restored.finalPagePlaced,"Save retains physical identities");
+        Assert(!DemoProgress.TryFromSaveString(saved.Substring(0,saved.Length-3),out restored),"Truncated save rejected");
+        Console.WriteLine("PASS: "+checks+" structural boundaries, branches, multi-round flow, local retry, and persistence checks.");
+    }
+}

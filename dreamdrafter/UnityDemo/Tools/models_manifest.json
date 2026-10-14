@@ -1,0 +1,980 @@
+[
+  {
+    "key": "PIS_initial_preview",
+    "scene": "比萨斜塔",
+    "source": "交付/比萨斜塔/Export/PIS/PIS_initial_preview.glb",
+    "prepared": "SourceModels/PIS_initial_preview.glb",
+    "source_sha256": "777ced006cb92718a13bd28c2ac5104cfa35bad2eea2e327c1ed35d59dc0552d",
+    "nodes": 342,
+    "meshes": 321,
+    "materials": 7,
+    "geometry_bytes": 4658472,
+    "textures": 4,
+    "primitives": 321,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PIS_scene_preview",
+    "scene": "比萨斜塔",
+    "source": "交付/比萨斜塔/Export/PIS/PIS_scene_preview.glb",
+    "prepared": "SourceModels/PIS_scene_preview.glb",
+    "source_sha256": "c8c265f193ff7e36799a999b47159186c531ffcf9a7a540935a29ccd6e4f5135",
+    "nodes": 896,
+    "meshes": 839,
+    "materials": 8,
+    "geometry_bytes": 8675288,
+    "textures": 4,
+    "primitives": 839,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PIS_Loggia_L04",
+    "scene": "比萨斜塔",
+    "source": "交付/比萨斜塔/Export/PIS/PIS_Loggia_L04.glb",
+    "prepared": "SourceModels/PIS_Loggia_L04.glb",
+    "source_sha256": "cce34454cd0fab73de5a4195917721f72a43a6f0d8d9ea2885cf642ed3a5bcac",
+    "nodes": 101,
+    "meshes": 101,
+    "materials": 1,
+    "geometry_bytes": 915016,
+    "textures": 1,
+    "primitives": 101,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PIS_Loggia_L05",
+    "scene": "比萨斜塔",
+    "source": "交付/比萨斜塔/Export/PIS/PIS_Loggia_L05.glb",
+    "prepared": "SourceModels/PIS_Loggia_L05.glb",
+    "source_sha256": "aad5d00741b55716328289dd610ecb362400b809e8909f0e38c689f653dcc80a",
+    "nodes": 101,
+    "meshes": 101,
+    "materials": 1,
+    "geometry_bytes": 907176,
+    "textures": 1,
+    "primitives": 101,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PIS_Loggia_L06",
+    "scene": "比萨斜塔",
+    "source": "交付/比萨斜塔/Export/PIS/PIS_Loggia_L06.glb",
+    "prepared": "SourceModels/PIS_Loggia_L06.glb",
+    "source_sha256": "0ca1762438c1fb2ff1b61e8bfe75070554c7286aa89a6e3202b3d1b1fde81ae2",
+    "nodes": 101,
+    "meshes": 101,
+    "materials": 1,
+    "geometry_bytes": 907176,
+    "textures": 1,
+    "primitives": 101,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PIS_Loggia_L07",
+    "scene": "比萨斜塔",
+    "source": "交付/比萨斜塔/Export/PIS/PIS_Loggia_L07.glb",
+    "prepared": "SourceModels/PIS_Loggia_L07.glb",
+    "source_sha256": "c310ab43288f87e934932edb903b2872a9633cef8078458c480331de48391e60",
+    "nodes": 101,
+    "meshes": 101,
+    "materials": 1,
+    "geometry_bytes": 907176,
+    "textures": 1,
+    "primitives": 101,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PIS_Belfry",
+    "scene": "比萨斜塔",
+    "source": "交付/比萨斜塔/Export/PIS/PIS_Belfry.glb",
+    "prepared": "SourceModels/PIS_Belfry.glb",
+    "source_sha256": "e34152bc74b7d6b4ba33885f87e6c3aec551c83caf0b121fd8e398209beebf7d",
+    "nodes": 127,
+    "meshes": 113,
+    "materials": 4,
+    "geometry_bytes": 978496,
+    "textures": 2,
+    "primitives": 113,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PIS_collision",
+    "scene": "比萨斜塔",
+    "source": "交付/比萨斜塔/Export/PIS/PIS_collision.glb",
+    "prepared": "SourceModels/PIS_collision.glb",
+    "source_sha256": "d78716cfdaf29332baa5b2684004cab69a1b4dd558df35218dd3cc3163ad7eb1",
+    "nodes": 32,
+    "meshes": 32,
+    "materials": 0,
+    "geometry_bytes": 1144232,
+    "textures": 0,
+    "primitives": 32,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAR_initial_preview",
+    "scene": "帕特农",
+    "source": "交付/帕特农/Export/PAR/PAR_initial_preview.glb",
+    "prepared": "SourceModels/PAR_initial_preview.glb",
+    "source_sha256": "89665689a91bbf241e5957a892c4703929409a0af1e8341cd69bcf063595e8b1",
+    "nodes": 712,
+    "meshes": 594,
+    "materials": 9,
+    "geometry_bytes": 4152184,
+    "textures": 5,
+    "primitives": 594,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAR_scene_preview",
+    "scene": "帕特农",
+    "source": "交付/帕特农/Export/PAR/PAR_scene_preview.glb",
+    "prepared": "SourceModels/PAR_scene_preview.glb",
+    "source_sha256": "566092f1565188afdecf438babdfac8b2b6edfb7959d662039757db92061af98",
+    "nodes": 831,
+    "meshes": 699,
+    "materials": 9,
+    "geometry_bytes": 5411120,
+    "textures": 5,
+    "primitives": 699,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAR_five_column_route",
+    "scene": "帕特农",
+    "source": "交付/帕特农/Export/PAR/PAR_five_column_route.glb",
+    "prepared": "SourceModels/PAR_five_column_route.glb",
+    "source_sha256": "94c35247433b00f09aee560285080c992e7b8dfbaaf1a130ae4630910abf1d71",
+    "nodes": 777,
+    "meshes": 651,
+    "materials": 9,
+    "geometry_bytes": 4861800,
+    "textures": 5,
+    "primitives": 651,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAR_old_drums",
+    "scene": "帕特农",
+    "source": "交付/帕特农/Export/PAR/PAR_old_drums.glb",
+    "prepared": "SourceModels/PAR_old_drums.glb",
+    "source_sha256": "41e7f16e52fc6bc8a632436f87182f83f9e0b769d13a240a8cb8d5c9cbfab406",
+    "nodes": 16,
+    "meshes": 16,
+    "materials": 1,
+    "geometry_bytes": 735904,
+    "textures": 1,
+    "primitives": 16,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAR_architraves",
+    "scene": "帕特农",
+    "source": "交付/帕特农/Export/PAR/PAR_architraves.glb",
+    "prepared": "SourceModels/PAR_architraves.glb",
+    "source_sha256": "53c0d4a98f428787974d7aa76e914d512dd73e71df646711cf162dc3cd5df06d",
+    "nodes": 9,
+    "meshes": 1,
+    "materials": 1,
+    "geometry_bytes": 1032,
+    "textures": 1,
+    "primitives": 1,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAR_column_template",
+    "scene": "帕特农",
+    "source": "交付/帕特农/Export/PAR/PAR_column_template.glb",
+    "prepared": "SourceModels/PAR_column_template.glb",
+    "source_sha256": "c682c369d5aef3a03dad83a9f68bb1462256e51db3300e63c2dde3303efeff8a",
+    "nodes": 18,
+    "meshes": 17,
+    "materials": 2,
+    "geometry_bytes": 376608,
+    "textures": 2,
+    "primitives": 17,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAR_bronze_portal",
+    "scene": "帕特农",
+    "source": "交付/帕特农/Export/PAR/PAR_bronze_portal.glb",
+    "prepared": "SourceModels/PAR_bronze_portal.glb",
+    "source_sha256": "0d92a9333c94f14dda4b695411ae2e98bd4923efde616f9add38f81b613920ee",
+    "nodes": 24,
+    "meshes": 24,
+    "materials": 2,
+    "geometry_bytes": 283288,
+    "textures": 1,
+    "primitives": 24,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAR_collision",
+    "scene": "帕特农",
+    "source": "交付/帕特农/Export/PAR/PAR_collision.glb",
+    "prepared": "SourceModels/PAR_collision.glb",
+    "source_sha256": "bf99f3c70feeadb18b36472be45b38b2aa0efe14b0e434e57ce28013c6649dea",
+    "nodes": 34,
+    "meshes": 34,
+    "materials": 0,
+    "geometry_bytes": 72680,
+    "textures": 0,
+    "primitives": 34,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAN_initial",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_initial.glb",
+    "prepared": "SourceModels/PAN_initial.glb",
+    "source_sha256": "46aa2d267e27a502625c9a31b54a1ec8e3299f2e97dba4ee73d7c981bdb8d45c",
+    "nodes": 383,
+    "meshes": 378,
+    "materials": 11,
+    "geometry_bytes": 8543760,
+    "textures": 3,
+    "primitives": 378,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": [
+      "KHR_materials_transmission",
+      "KHR_materials_ior"
+    ]
+  },
+  {
+    "key": "PAN_complete",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_complete.glb",
+    "prepared": "SourceModels/PAN_complete.glb",
+    "source_sha256": "ca5ca21783c136d5a62fb69c60ea86350552a0081425a000fbf2e2ec3ce61b77",
+    "nodes": 405,
+    "meshes": 395,
+    "materials": 12,
+    "geometry_bytes": 8713912,
+    "textures": 4,
+    "primitives": 395,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAN_open_rain",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_open_rain.glb",
+    "prepared": "SourceModels/PAN_open_rain.glb",
+    "source_sha256": "7337dc94f7a3dfaf283379533403b3f0bf051321b3ef4d012021b181dfbc7a46",
+    "nodes": 392,
+    "meshes": 386,
+    "materials": 11,
+    "geometry_bytes": 8765680,
+    "textures": 3,
+    "primitives": 386,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": [
+      "KHR_materials_transmission",
+      "KHR_materials_ior"
+    ]
+  },
+  {
+    "key": "PAN_top_sealed",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_top_sealed.glb",
+    "prepared": "SourceModels/PAN_top_sealed.glb",
+    "source_sha256": "9e26d4bc1b5f93387dce02fd35d53cacd11ced505aec92ef2c63c1bff87b938e",
+    "nodes": 3,
+    "meshes": 1,
+    "materials": 1,
+    "geometry_bytes": 251200,
+    "textures": 0,
+    "primitives": 1,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAN_top_patch_D7p8",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_top_patch_D7p8.glb",
+    "prepared": "SourceModels/PAN_top_patch_D7p8.glb",
+    "source_sha256": "3dce5e076e7e6c2e2a43bbe0cb49f2d1bc740fa56b5db73b27e12dcd119b2477",
+    "nodes": 10,
+    "meshes": 8,
+    "materials": 1,
+    "geometry_bytes": 308736,
+    "textures": 1,
+    "primitives": 8,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAN_pressure_ring",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_pressure_ring.glb",
+    "prepared": "SourceModels/PAN_pressure_ring.glb",
+    "source_sha256": "541a950641f143c7af837e44162fcdaf98bee6056735f7574e908100860c41e5",
+    "nodes": 3,
+    "meshes": 1,
+    "materials": 1,
+    "geometry_bytes": 68608,
+    "textures": 0,
+    "primitives": 1,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAN_water",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_water.glb",
+    "prepared": "SourceModels/PAN_water.glb",
+    "source_sha256": "f4bf58f90e10dbf975b42f63367cd0aa4ee12a172bb854a486ea904c257e61ba",
+    "nodes": 2,
+    "meshes": 1,
+    "materials": 1,
+    "geometry_bytes": 10384,
+    "textures": 0,
+    "primitives": 1,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": [
+      "KHR_materials_transmission",
+      "KHR_materials_ior"
+    ]
+  },
+  {
+    "key": "PAN_portal_halves",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_portal_halves.glb",
+    "prepared": "SourceModels/PAN_portal_halves.glb",
+    "source_sha256": "58eaee3d3c72942ad0302478f218b32a645dece451ebb4c9730be41e04f74eee",
+    "nodes": 5,
+    "meshes": 3,
+    "materials": 2,
+    "geometry_bytes": 46744,
+    "textures": 2,
+    "primitives": 3,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAN_drain_modules",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_drain_modules.glb",
+    "prepared": "SourceModels/PAN_drain_modules.glb",
+    "source_sha256": "0002eafbb5eea3290dbd52916e67c02b35b419eb8e5715a7959be447d2b1c825",
+    "nodes": 13,
+    "meshes": 8,
+    "materials": 2,
+    "geometry_bytes": 31248,
+    "textures": 0,
+    "primitives": 8,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAN_collision_initial",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_collision_initial.glb",
+    "prepared": "SourceModels/PAN_collision_initial.glb",
+    "source_sha256": "8bc5999a45fa3197173feb0e5b901628d0bacae80eff2373cf04d3b6a928a3e2",
+    "nodes": 12,
+    "meshes": 10,
+    "materials": 1,
+    "geometry_bytes": 1538288,
+    "textures": 1,
+    "primitives": 10,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "PAN_collision",
+    "scene": "万神殿",
+    "source": "交付/万神殿/Export/PAN/PAN_collision.glb",
+    "prepared": "SourceModels/PAN_collision.glb",
+    "source_sha256": "f47b5503841cae9a6186532bcfa49431d161bf42adfffc93b9dfe022ff9566f7",
+    "nodes": 10,
+    "meshes": 9,
+    "materials": 0,
+    "geometry_bytes": 1523840,
+    "textures": 0,
+    "primitives": 9,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_initial",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_initial.glb",
+    "prepared": "SourceModels/COL_initial.glb",
+    "source_sha256": "c4549a0529969badde2ae53b557e81726c62a069ada9adf1dc76d18267912758",
+    "nodes": 106,
+    "meshes": 103,
+    "materials": 8,
+    "geometry_bytes": 12358284,
+    "textures": 3,
+    "primitives": 103,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_complete",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_complete.glb",
+    "prepared": "SourceModels/COL_complete.glb",
+    "source_sha256": "8fbda6c30d5ef9dab47cbe23dcfc4d5b279547ebcdabedb50b03ca87044b7f8e",
+    "nodes": 142,
+    "meshes": 138,
+    "materials": 9,
+    "geometry_bytes": 17546236,
+    "textures": 4,
+    "primitives": 138,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_south_upper",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_south_upper.glb",
+    "prepared": "SourceModels/COL_south_upper.glb",
+    "source_sha256": "d3c65f5814f9c57560b740341a20c3e2d50b954b8dfe9e6b6ab200a7045d8948",
+    "nodes": 40,
+    "meshes": 39,
+    "materials": 1,
+    "geometry_bytes": 5481928,
+    "textures": 1,
+    "primitives": 39,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_crane_wood",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_crane_wood.glb",
+    "prepared": "SourceModels/COL_crane_wood.glb",
+    "source_sha256": "430ca7b272432920ed480a0f1adc23b12fac169b4ff49b78c522cfcfa76385cd",
+    "nodes": 6,
+    "meshes": 5,
+    "materials": 1,
+    "geometry_bytes": 75944,
+    "textures": 1,
+    "primitives": 5,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_fragment_original",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_fragment_original.glb",
+    "prepared": "SourceModels/COL_fragment_original.glb",
+    "source_sha256": "a669d9bfae0efe61d6bcfd64cacd5e12687a6e5c3446f82bc42e60ef0048ff2b",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "geometry_bytes": 36416,
+    "textures": 1,
+    "primitives": 1,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_ground_portal",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_ground_portal.glb",
+    "prepared": "SourceModels/COL_ground_portal.glb",
+    "source_sha256": "e30e36134c44019bf3f18decdfcbb6d6cf8f232341aa8ffe02fa98b25d261595",
+    "nodes": 4,
+    "meshes": 4,
+    "materials": 3,
+    "geometry_bytes": 149592,
+    "textures": 1,
+    "primitives": 4,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_crayon_pickup",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_crayon_pickup.glb",
+    "prepared": "SourceModels/COL_crayon_pickup.glb",
+    "source_sha256": "f53245bda22bf9091b94a60944f3844b1ab89f3b7d293633659289f52fbab98a",
+    "nodes": 3,
+    "meshes": 3,
+    "materials": 2,
+    "geometry_bytes": 5672,
+    "textures": 2,
+    "primitives": 3,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_split_page",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_split_page.glb",
+    "prepared": "SourceModels/COL_split_page.glb",
+    "source_sha256": "b4362f1452351af0a47c145571c31d8a4d43176f031347223d1d1e3bc1412d20",
+    "nodes": 2,
+    "meshes": 2,
+    "materials": 2,
+    "geometry_bytes": 4272,
+    "textures": 2,
+    "primitives": 2,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_collision_initial",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_collision_initial.glb",
+    "prepared": "SourceModels/COL_collision_initial.glb",
+    "source_sha256": "61dd38d69fa3dcf20ba7e2b497306715e9084a44a21e6f27813ca0462ba8cdab",
+    "nodes": 22,
+    "meshes": 22,
+    "materials": 1,
+    "geometry_bytes": 125520,
+    "textures": 1,
+    "primitives": 22,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "COL_collision_complete",
+    "scene": "科隆大教堂",
+    "source": "交付/科隆大教堂/Export/COL/COL_collision_complete.glb",
+    "prepared": "SourceModels/COL_collision_complete.glb",
+    "source_sha256": "39357a86ae50639bae8acff1d363d5913725706064c379a752c867d96cf26ed4",
+    "nodes": 21,
+    "meshes": 21,
+    "materials": 1,
+    "geometry_bytes": 124752,
+    "textures": 1,
+    "primitives": 21,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "SAG_room_initial",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_room_initial.glb",
+    "prepared": "SourceModels/SAG_room_initial.glb",
+    "source_sha256": "01a94f45601d9690864cef2feed9a91b77b2cfa2b5c6ccb1d22323a8c03d3abf",
+    "nodes": 47,
+    "meshes": 41,
+    "materials": 12,
+    "geometry_bytes": 487312,
+    "textures": 8,
+    "primitives": 41,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": [
+      "KHR_materials_specular"
+    ]
+  },
+  {
+    "key": "SAG_room_complete",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_room_complete.glb",
+    "prepared": "SourceModels/SAG_room_complete.glb",
+    "source_sha256": "ce6e0db8b3e1e6ea3d043daa5fe7b66fd3c921b9d5935f28e79edcbe67662d89",
+    "nodes": 62,
+    "meshes": 50,
+    "materials": 13,
+    "geometry_bytes": 693600,
+    "textures": 9,
+    "primitives": 50,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": [
+      "KHR_materials_specular"
+    ]
+  },
+  {
+    "key": "SAG_nave_complete",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_nave_complete.glb",
+    "prepared": "SourceModels/SAG_nave_complete.glb",
+    "source_sha256": "b395d603a7f4cb398b805c7d8908b7cafa316eccf9eed6fc6d55580aae3a18d4",
+    "nodes": 48,
+    "meshes": 47,
+    "materials": 17,
+    "geometry_bytes": 6113272,
+    "textures": 3,
+    "primitives": 74,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": [
+      "KHR_materials_transmission"
+    ]
+  },
+  {
+    "key": "SAG_final_complete",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_final_complete.glb",
+    "prepared": "SourceModels/SAG_final_complete.glb",
+    "source_sha256": "a563eb4e8a14886f4753c10dda10b13de0d67a143a67c7246196882882edcba2",
+    "nodes": 53,
+    "meshes": 52,
+    "materials": 18,
+    "geometry_bytes": 9849344,
+    "textures": 3,
+    "primitives": 80,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": [
+      "KHR_materials_transmission"
+    ]
+  },
+  {
+    "key": "SAG_chain_A",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_chain_A.glb",
+    "prepared": "SourceModels/SAG_chain_A.glb",
+    "source_sha256": "0786eae674e9d126a03a78f3bea126a77d7f86827c48e64e7f394f82c58c0619",
+    "nodes": 4,
+    "meshes": 1,
+    "materials": 1,
+    "geometry_bytes": 37920,
+    "textures": 0,
+    "primitives": 1,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "SAG_chain_B",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_chain_B.glb",
+    "prepared": "SourceModels/SAG_chain_B.glb",
+    "source_sha256": "dbdf36970b8988eab6bdfcef93d6e1cf2505f721c9fee18f0ee3cdde919706f5",
+    "nodes": 4,
+    "meshes": 1,
+    "materials": 1,
+    "geometry_bytes": 37920,
+    "textures": 0,
+    "primitives": 1,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "SAG_chain_C",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_chain_C.glb",
+    "prepared": "SourceModels/SAG_chain_C.glb",
+    "source_sha256": "99ece6f64269fcf20b59839ede95742e2ffc9dee60caaa3fea1e3177a5ed2417",
+    "nodes": 4,
+    "meshes": 1,
+    "materials": 1,
+    "geometry_bytes": 37536,
+    "textures": 0,
+    "primitives": 1,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "SAG_fragment_cores",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_fragment_cores.glb",
+    "prepared": "SourceModels/SAG_fragment_cores.glb",
+    "source_sha256": "52ea56660ce48728f4f4e05db98ff9c3aa280621ba98aaf191b71a21cd09dbce",
+    "nodes": 6,
+    "meshes": 5,
+    "materials": 1,
+    "geometry_bytes": 80696,
+    "textures": 1,
+    "primitives": 5,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "SAG_mirror_and_dust",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_mirror_and_dust.glb",
+    "prepared": "SourceModels/SAG_mirror_and_dust.glb",
+    "source_sha256": "acb76ac72c4780b1f2124cb831ecbd04278999cfd009a905e50433dcdd56512c",
+    "nodes": 3,
+    "meshes": 2,
+    "materials": 2,
+    "geometry_bytes": 13080,
+    "textures": 2,
+    "primitives": 2,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "extensions_used": [
+      "KHR_materials_specular"
+    ]
+  },
+  {
+    "key": "SAG_collision",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_collision.glb",
+    "prepared": "SourceModels/SAG_collision.glb",
+    "source_sha256": "684058631a4a71e36701f43c6929a2b623b3470c4f9d0419fef9017586739844",
+    "nodes": 24,
+    "meshes": 22,
+    "materials": 2,
+    "geometry_bytes": 27192,
+    "textures": 1,
+    "primitives": 22,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "SAG_final_doors",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_final_doors.glb",
+    "prepared": "SourceModels/SAG_final_doors.glb",
+    "source_sha256": "b108f6c8ffe0687ac1292c28b20f2c7d3b940e91c5a84565f9464d57cd4ca9aa",
+    "nodes": 5,
+    "meshes": 4,
+    "materials": 2,
+    "geometry_bytes": 9672,
+    "textures": 0,
+    "primitives": 4,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": []
+  },
+  {
+    "key": "SAG_wks_return_preview",
+    "scene": "圣家堂",
+    "source": "交付/圣家堂/Export/SAG/SAG_wks_return_preview.glb",
+    "prepared": "SourceModels/SAG_wks_return_preview.glb",
+    "source_sha256": "b3ae9156185dd83afae55de8e42ef9b92805d03c0f4b3d1a39c554c44f92b978",
+    "nodes": 14,
+    "meshes": 13,
+    "materials": 7,
+    "geometry_bytes": 22864,
+    "textures": 2,
+    "primitives": 13,
+    "attributes": [
+      "NORMAL",
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "extensions_used": [
+      "KHR_materials_emissive_strength"
+    ]
+  }
+]

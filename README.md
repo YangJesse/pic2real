@@ -1,5 +1,21 @@
 # pic2real
 
+## 梦筑师 / DreamDrafter：比赛 Unity 原型
+
+本次建筑交互比赛工程位于 **[dreamdrafter/UnityDemo](dreamdrafter/UnityDemo/)**，使用 **Unity 6000.6.5f1**。它与下方的早期 `demo1` 是两个独立工程，请分别用对应版本打开。
+
+1. 在 Unity Hub 中添加 `dreamdrafter/UnityDemo/`，使用 `6000.6.5f1` 导入。
+2. 打开 `Assets/Scenes/00_Workshop.unity`，点击 Play，再点击 Game 窗口操作。
+3. 操作、七个场景的演示路线及构建方法见 **[工程说明](dreamdrafter/UnityDemo/README.md)**。
+
+Mac 已安装对应 Unity 后，也可运行 [一键打开游戏.command](dreamdrafter/一键打开游戏.command)。这是编辑器启动脚本，仓库不附带独立播放器。
+
+工程使用固定取景点、预设画面及三维构件实现画物成真的交互原型。源码与运行所需素材已包含在工程内，运行时不需要 AI 密钥或 Blender；不支持任意画稿识别。宣传视频、AI 生成过程文件及外部 Blender 制作资料不在本次提交范围内。
+
+代码入口：[交互流程](dreamdrafter/UnityDemo/Assets/Scripts/DemoDirector.cs)、[场景与构件](dreamdrafter/UnityDemo/Assets/Scripts/DemoWorld.cs)、[界面](dreamdrafter/UnityDemo/Assets/Scripts/DemoUI.cs)、[规则](dreamdrafter/UnityDemo/Assets/Scripts/DemoRules.cs)。
+
+---
+
 ## demo1 照片成境
 
 **这是一个仍然很粗糙的第一人称建筑交互原型。** 当前主要验证「照片变成真实空间」这一机制，以及一条从起点走到终点的基本关卡流程。现有场景、节奏、玩法和画面都需要继续优化，不代表最终美术与游戏品质。

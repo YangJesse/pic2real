@@ -1,0 +1,66 @@
+{
+  "source": "demo1/Assets/Fonts/NotoSansCJKsc-Regular.otf (same repository)",
+  "prepared": "Assets/Resources/Fonts/Chinese.otf",
+  "family": "Noto Sans CJK SC",
+  "license": "SIL Open Font License 1.1",
+  "license_file": "Assets/Resources/Fonts/OFL.txt",
+  "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+  "resource_key": "Fonts/Chinese",
+  "asset_guid": "7001684fcf098bd439588f022be10b2c",
+  "name_id_legend": {
+    "0": "copyright",
+    "1": "family",
+    "4": "full name",
+    "8": "manufacturer",
+    "11": "vendor URL",
+    "13": "license description",
+    "14": "license URL"
+  },
+  "font_name_table": {
+    "0": [
+      "© 2014-2021 Adobe (http://www.adobe.com/)."
+    ],
+    "1": [
+      "Noto Sans CJK SC"
+    ],
+    "2": [
+      "Regular"
+    ],
+    "3": [
+      "2.004;GOOG;NotoSansCJKsc-Regular;ADOBE"
+    ],
+    "4": [
+      "Noto Sans CJK SC"
+    ],
+    "5": [
+      "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603"
+    ],
+    "6": [
+      "NotoSansCJKsc-Regular"
+    ],
+    "7": [
+      "Noto is a trademark of Google Inc."
+    ],
+    "8": [
+      "Adobe"
+    ],
+    "9": [
+      "Ryoko NISHIZUKA 西塚涼子 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications 산돌커뮤니케이션, Soo-young JANG 장수영 & Joo-yeon KANG 강주연 (hangul elements, letters & syllables)"
+    ],
+    "10": [
+      "Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI 服部正貴 (production & ideograph elements)"
+    ],
+    "11": [
+      "http://www.google.com/get/noto/"
+    ],
+    "12": [
+      "http://www.adobe.com/type/"
+    ],
+    "13": [
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+    ],
+    "14": [
+      "http://scripts.sil.org/OFL"
+    ]
+  }
+}

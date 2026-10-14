@@ -1,0 +1,27 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+*.csproj
+*.sln
+*.pidb
+*.user
+*.suo
+
+# Generated builds, checks and local tooling
+/Builds/
+/Build/
+/TestResults/
+.DS_Store
+__pycache__/
+*.py[cod]
+/Tools/.import_*
+/Tools/*.log
+/Tools/unity_import_report.json
+/Tools/models_validation.json
+/Tools/models_blender_reimport.json
+/Tools/par_geometry_diagnostics.json
+/Tools/RuleChecks/*.exe
+/Tools/RuleChecks/result.txt
+/Tools/RuleChecks/Output/

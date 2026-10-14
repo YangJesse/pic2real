@@ -1,0 +1,132 @@
+[
+  {
+    "key": "PIS_Page",
+    "source": "交付/比萨斜塔/Preview/PIS_00_INITIAL.png",
+    "prepared": "Assets/Resources/Art/PIS_Page.png"
+  },
+  {
+    "key": "PIS_A",
+    "source": "交付/比萨斜塔/Preview/PIS_03_FAIL_BELFRY.png",
+    "prepared": "Assets/Resources/Art/PIS_A.png"
+  },
+  {
+    "key": "PIS_B",
+    "source": "交付/比萨斜塔/Preview/PIS_01_SUCCESS.png",
+    "prepared": "Assets/Resources/Art/PIS_B.png"
+  },
+  {
+    "key": "PIS_C",
+    "source": "交付/比萨斜塔/Preview/PIS_08_FAIL_MIDLEVEL.png",
+    "prepared": "Assets/Resources/Art/PIS_C.png"
+  },
+  {
+    "key": "PIS_Complete",
+    "source": "交付/比萨斜塔/Preview/PIS_01_SUCCESS.png",
+    "prepared": "Assets/Resources/Art/PIS_Complete.png"
+  },
+  {
+    "key": "PAR_Page",
+    "source": "交付/帕特农/Preview/PAR_00_INITIAL.png",
+    "prepared": "Assets/Resources/Art/PAR_Page.png"
+  },
+  {
+    "key": "PAR_A",
+    "source": "交付/帕特农/Preview/PAR_09_SAMPLE_A_3of3.png",
+    "prepared": "Assets/Resources/Art/PAR_A.png"
+  },
+  {
+    "key": "PAR_B",
+    "source": "交付/帕特农/Preview/PAR_03_FULL_RESTORATION.png",
+    "prepared": "Assets/Resources/Art/PAR_B.png"
+  },
+  {
+    "key": "PAR_C",
+    "source": "交付/帕特农/Preview/PAR_06_OFF_RHYTHM.png",
+    "prepared": "Assets/Resources/Art/PAR_C.png"
+  },
+  {
+    "key": "PAR_Complete",
+    "source": "交付/帕特农/Preview/PAR_03_FULL_RESTORATION.png",
+    "prepared": "Assets/Resources/Art/PAR_Complete.png"
+  },
+  {
+    "key": "PAN_Page",
+    "source": "交付/万神殿/Preview/PAN_00_INITIAL.png",
+    "prepared": "Assets/Resources/Art/PAN_Page.png"
+  },
+  {
+    "key": "PAN_A",
+    "source": "交付/万神殿/Preview/PAN_10_SAMPLE_A_6p4.png",
+    "prepared": "Assets/Resources/Art/PAN_A.png"
+  },
+  {
+    "key": "PAN_B",
+    "source": "交付/万神殿/Preview/PAN_11_SAMPLE_B_7p8.png",
+    "prepared": "Assets/Resources/Art/PAN_B.png"
+  },
+  {
+    "key": "PAN_C",
+    "source": "交付/万神殿/Preview/PAN_12_SAMPLE_C_9p6.png",
+    "prepared": "Assets/Resources/Art/PAN_C.png"
+  },
+  {
+    "key": "PAN_Complete",
+    "source": "交付/万神殿/Preview/PAN_03_COMPLETE.png",
+    "prepared": "Assets/Resources/Art/PAN_Complete.png"
+  },
+  {
+    "key": "COL_Page",
+    "source": "交付/科隆大教堂/Preview/COL_00_INITIAL.png",
+    "prepared": "Assets/Resources/Art/COL_Page.png"
+  },
+  {
+    "key": "COL_A",
+    "source": "交付/科隆大教堂/Preview/COL_02_SAMPLE_A_0.png",
+    "prepared": "Assets/Resources/Art/COL_A.png"
+  },
+  {
+    "key": "COL_B",
+    "source": "交付/科隆大教堂/Preview/COL_03_SAMPLE_B_30.png",
+    "prepared": "Assets/Resources/Art/COL_B.png"
+  },
+  {
+    "key": "COL_C",
+    "source": "交付/科隆大教堂/Preview/COL_04_SAMPLE_C_60.png",
+    "prepared": "Assets/Resources/Art/COL_C.png"
+  },
+  {
+    "key": "COL_Complete",
+    "source": "交付/科隆大教堂/Preview/COL_01_COMPLETE.png",
+    "prepared": "Assets/Resources/Art/COL_Complete.png"
+  },
+  {
+    "key": "SAG_Page",
+    "source": "交付/圣家堂/Preview/SAG_00_INITIAL_mirror.png",
+    "prepared": "Assets/Resources/Art/SAG_Page.png"
+  },
+  {
+    "key": "SAG_A",
+    "source": "交付/圣家堂/Preview/SAG_17_SAMPLE_SMALL_mirror.png",
+    "prepared": "Assets/Resources/Art/SAG_A.png"
+  },
+  {
+    "key": "SAG_B",
+    "source": "交付/圣家堂/Preview/SAG_18_SAMPLE_LARGE_mirror.png",
+    "prepared": "Assets/Resources/Art/SAG_B.png"
+  },
+  {
+    "key": "SAG_C",
+    "source": "交付/圣家堂/Preview/SAG_19_SAMPLE_LONG_mirror.png",
+    "prepared": "Assets/Resources/Art/SAG_C.png"
+  },
+  {
+    "key": "SAG_Complete",
+    "source": "交付/圣家堂/Preview/SAG_02_COMPLETE_mirror.png",
+    "prepared": "Assets/Resources/Art/SAG_Complete.png"
+  },
+  {
+    "key": "Final_Page",
+    "source": "交付/圣家堂/Preview/SAG_10_FINAL_FACADE.png",
+    "prepared": "Assets/Resources/Art/Final_Page.png"
+  }
+]

@@ -1,0 +1,20 @@
+梦筑师 / DreamDrafter — 素材来源
+
+模型、候选画与表面纹理
+来自本项目原始 Blender 制作工程的模型导出和预览渲染。Unity 可直接使用的素材已放在 Assets 中；SourceModels 包含可供编辑器重新导入的 GLB 和共享纹理。
+模型来源清单：Tools/models_manifest.json。
+候选画来源清单：Tools/art_manifest.json。
+蜡笔表面来源清单：Tools/col_surfaces_manifest.json。
+清单中“交付/…”等路径指历史原始制作资料，不是本仓库中的运行时依赖。完整 Blender 制作目录不随本次源工程交付；重新准备素材可设置 DREAMDRAFTER_MODEL_ROOT，详见 README。
+
+中文 UI 字体
+字体：Noto Sans CJK SC Regular。
+原文件：NotoSansCJKsc-Regular.otf，沿用仓库已有 demo1/Assets/Fonts 中的同名字体。
+本工程位置：Assets/Resources/Fonts/Chinese.otf。
+版权：© 2014–2021 Adobe (http://www.adobe.com/)。
+许可：SIL Open Font License, Version 1.1。
+完整许可随字体提供：Assets/Resources/Fonts/OFL.txt。
+字体原始名称表和许可字段记录于 Tools/font_metadata.json。
+该字体替换了制作阶段使用的系统字体；此发布副本不分发 SimHei / simhei.ttf，也不要求安装该系统字体。
+
+Tools/prepare_art.py 只更新候选画和字体元数据，保留随附字体、OFL 许可和本来源说明，不从本机系统字体目录复制字体。

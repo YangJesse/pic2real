@@ -1,0 +1,23 @@
+[
+  {
+    "source": "交付/科隆大教堂/Export/COL/COL_02_SAMPLE_A_0.glb",
+    "material": "M_New_Sandstone",
+    "crayon_mix": 0,
+    "texture": "Assets/Resources/Surfaces/COL_Stone.png",
+    "sha256": "7b29b33721c7ece8cea90759272aa4d4ee3c26a01909b6dc53160e4b27a7f3bf"
+  },
+  {
+    "source": "交付/科隆大教堂/Export/COL/COL_03_SAMPLE_B_30.glb",
+    "material": "M_New_Sandstone_Crayon30",
+    "crayon_mix": 0.3,
+    "texture": "Assets/Resources/Surfaces/COL_Crayon30.png",
+    "sha256": "b8b9f8261d440825178a8874107d85c3a667ecfb6af28b7de2573cef4386de0d"
+  },
+  {
+    "source": "交付/科隆大教堂/Export/COL/COL_04_SAMPLE_C_60.glb",
+    "material": "M_New_Sandstone_Crayon60",
+    "crayon_mix": 0.6,
+    "texture": "Assets/Resources/Surfaces/COL_Crayon60.png",
+    "sha256": "457aad6848b79158f5afc95903637ee1fc1c475865338570c6b9810d3dfb833b"
+  }
+]
